@@ -34,9 +34,6 @@ Backend
 expenseiq-frontend/
 expenseiq-backend/
 
-## Screenshots
-
-(Add screenshots)
 
 ## Installation
 
