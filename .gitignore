@@ -1,0 +1,26 @@
+# Node
+node_modules/
+dist/
+
+# React
+.vite/
+
+# Spring Boot
+target/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar

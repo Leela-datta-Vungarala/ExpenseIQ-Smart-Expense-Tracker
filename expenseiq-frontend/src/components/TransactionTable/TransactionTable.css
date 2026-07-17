@@ -1,0 +1,275 @@
+.transaction-table-container{
+
+    background:white;
+    padding:25px;
+
+    margin-top:30px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.table-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.table-header h2{
+
+    color:#222;
+
+}
+
+.transaction-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.transaction-table th{
+
+    text-align:left;
+
+    padding:15px;
+
+    background:#f6f8fb;
+
+}
+
+.transaction-table td{
+
+    padding:15px;
+
+    border-bottom:1px solid #ececec;
+
+}
+
+.transaction-table tr:hover{
+
+    background:#fafafa;
+
+}
+
+.income-badge{
+
+    background:#d8ffe5;
+
+    color:#0f9d58;
+
+    padding:6px 14px;
+
+    border-radius:50px;
+
+    font-size:14px;
+
+}
+
+.expense-badge{
+
+    background:#ffe0e0;
+
+    color:#d93025;
+
+    padding:6px 14px;
+
+    border-radius:50px;
+
+    font-size:14px;
+
+}
+
+.amount{
+
+    font-weight:600;
+
+}
+
+.edit-btn{
+
+    border:none;
+
+    background:#edf3ff;
+
+    cursor:pointer;
+
+    padding:8px 10px;
+
+    border-radius:8px;
+
+    margin-right:8px;
+
+}
+
+.delete-btn{
+
+    border:none;
+
+    background:#ffeaea;
+
+    cursor:pointer;
+
+    padding:8px 10px;
+
+    border-radius:8px;
+
+}
+
+.edit-btn:hover{
+
+    transform:scale(1.08);
+
+}
+
+.delete-btn:hover{
+
+    transform:scale(1.08);
+
+}
+
+.empty-state{
+
+    text-align:center;
+
+    color:gray;
+
+    padding:40px;
+
+}
+
+.transaction-table-container {
+    margin-top: 30px;
+    background: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transaction-table thead {
+    background: linear-gradient(135deg, #ff4f87, #ff6fa5);
+    color: white;
+}
+
+.transaction-table th {
+    padding: 18px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.transaction-table td {
+    padding: 16px 18px;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 15px;
+    color: #333;
+}
+
+.transaction-table tbody tr {
+    transition: 0.25s;
+}
+
+.transaction-table tbody tr:hover {
+    background: #fff6f9;
+}
+
+.income-badge {
+    background: #d1fae5;
+    color: #059669;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.expense-badge {
+    background: #fee2e2;
+    color: #dc2626;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.income-text {
+    color: #16a34a;
+    font-weight: 700;
+}
+
+.expense-text {
+    color: #dc2626;
+    font-weight: 700;
+}
+
+.edit-btn {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 9px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.edit-btn:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+}
+
+.delete-btn {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 9px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.delete-btn:hover {
+    background: #dc2626;
+    transform: translateY(-2px);
+}
+
+.no-transactions {
+    margin-top: 30px;
+    padding: 50px;
+    background: white;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.no-transactions h3 {
+    color: #888;
+    font-weight: 500;
+}
+
+@media (max-width: 900px) {
+
+    .transaction-table-container {
+        overflow-x: auto;
+    }
+
+    .transaction-table {
+        min-width: 850px;
+    }
+
+}

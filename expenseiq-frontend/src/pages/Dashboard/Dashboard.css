@@ -1,0 +1,328 @@
+body{
+    margin:0;
+    background:#f4f7fb;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.dashboard{
+    min-height:100vh;
+}
+
+.navbar{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 40px;
+
+    background:white;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+
+}
+
+.navbar h2{
+
+    color:#2563eb;
+
+}
+
+.profile{
+
+    font-size:18px;
+    font-weight:bold;
+
+}
+
+.welcome-section{
+
+    padding:35px 40px;
+
+}
+
+.welcome-section h1{
+
+    margin-bottom:8px;
+
+}
+
+.welcome-section p{
+
+    color:#666;
+
+}
+
+.summary-cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+    padding:0 40px;
+
+}
+
+.card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.card h3{
+
+    color:#777;
+
+}
+
+.card h2{
+
+    margin-top:15px;
+
+    color:#2563eb;
+
+}
+
+.recent-section{
+
+    margin:40px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.dashboard-content{
+
+    padding:35px 40px;
+
+}
+
+.welcome-section{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:35px;
+
+}
+
+.add-btn{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 24px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+.add-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.dashboard-content{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:30px;
+
+}
+
+.welcome-section{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+.welcome-section h1{
+
+    margin:0;
+
+}
+
+.welcome-section p{
+
+    color:#777;
+
+    margin-top:8px;
+
+}
+
+.add-btn{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 22px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.add-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.dark{
+
+    background:#111827;
+    color:#f9fafb;
+    min-height:100vh;
+
+}
+
+.dark .dashboard-content{
+
+    background:#111827;
+
+}
+
+.dark .summary-card,
+.dark .transaction-table-container,
+.dark .chart-card,
+.dark .recent-card{
+
+    background:#1f2937;
+    border:1px solid #374151;
+    box-shadow:0 8px 24px rgba(0,0,0,.25);
+
+}
+
+.dark input,
+.dark select{
+
+    color:white !important;
+    background:#374151;
+    border:1px solid #4b5563;
+
+}
+
+.dark input::placeholder{
+
+    color:#d1d5db;
+
+}
+
+.dark option{
+
+    background:#374151;
+    color:white;
+
+}
+.dark table{
+
+    color:#f3f4f6;
+
+}
+
+.dark tbody tr{
+
+    color:#f3f4f6;
+
+}
+
+.dark tbody td{
+
+    color:#f3f4f6 !important;
+
+}
+
+.dark thead{
+
+    background:#374151;
+
+}
+
+.dark thead th{
+
+    color:white !important;
+
+}
+
+
+.dark-navbar{
+
+    background:#1f2937;
+    border-bottom:1px solid #374151;
+
+}
+
+/* ===========================
+   TABLE HEADER FIX
+=========================== */
+
+.transaction-table thead th,
+table thead th{
+
+    background:#f8fafc !important;
+
+    color:#1f2937 !important;
+
+    font-weight:600;
+
+    padding:16px;
+
+    text-align:left;
+
+}
+
+/* Dark Mode */
+
+.dark .transaction-table thead th,
+.dark table thead th{
+
+    background:#374151 !important;
+
+    color:#ffffff !important;
+
+}
